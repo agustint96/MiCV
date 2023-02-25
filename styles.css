@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+
+#fondo{
+    position: fixed;
+    top: 0%;
+    background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-size:cover ;
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
+
+#contenido{
+
+  margin: 3% 8% 3% 6%;
+  position: relative;
+  background-color: #ffffff;
+  opacity: 79%;
+  box-shadow: 1px 2px 20px black;
+  
+  
+ 
+}
+
+  
+.color6{
+    background-color: #030a38;;
+    color: #d9d9d9;
+}
+.color3{
+    background-color: #d7ccc8;
+    color:#4E342E;
+
+}
+
+
+.color1{
+    background-color: #02061f;;
+    color:#d9d9d9 ;
+
+}
+.color4{
+    background-color: #4E342E;
+    color:#d7ccc8;
+}
+
+.color2{
+    background-color:#D7CCC8;
+    color: #373741;
+}
+
+h2{
+    background-color: #030a38;;
+    color: #d9d9d9;
+    padding: 2%;
+    
+    
+
+}
+
+img{
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    border-radius: 100%;
+}
+
+.aplicarbrillo:hover{
+    filter: brightness(90%);
+}
+
+.efectosombra{
+    padding: 1%;
+}
+
+.efectosombra:hover{
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.157);
+    transition: linear 1s;
+    padding: 2%;
+    
+}
+.textogris{
+ color: #373741da;
+}
+
+a{
+    color: #7d7d7d7d;
+}
+
+a:hover{
+    color: #d9d9d9;
+}
+ul {
+    list-style: none;
+    
+}
+
+#icononavbar:hover{
+    transition: all 0.5s;
+    filter: invert(1);
+    
+}
+
+
+.bg-body-tertiary{
+    
+    
+    padding: 0;
+   
+}
+
+.navbargris{
+    background-color: #02061f;;
+    margin: 0%;
+    padding: 2%;
+    
+    
+    
+}
+
+.navbar-brand{
+    color: #7d7d7d;
+    margin-right: 20%;
+}
+
+.nav-link{
+    
+    color: #7d7d7d;
+    
+}
+.nav-item{
+    margin-right: 80px;
+}
+.nav-link:hover{
+    color:#d7ccc8;
+    
+   
+
+    
+}
+
+
+button.navbar-toggler{
+    padding: 1%;
+    margin: 2%;
+    border: none;
+    
+    
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    
+    
+    
+    box-shadow: 0 0 0 ;
+}
+
+
+
+
+.flip-vertical-right:hover {
+	-webkit-animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    color:#d9d9d9;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation flip-vertical-right
+ * ----------------------------------------
+ */
+ @-webkit-keyframes flip-vertical-right {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg);
+    }
+  }
+  @keyframes flip-vertical-right {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg);
+    }
+  }
+  
+#cajafooter{
+    padding: 0;
+}
+ul.footer{
+    display: flex;
+    justify-content: center;
+align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.footer-item{
+    margin: 2% 2%;
+    font-size: 20px
+}
+.textofooter{
+
+    color: #d9d9d9;
+    margin-left: 2%;
+}
+
+.container-fluid.footer{
+    background-color: #02061f;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*ULTIMO AGREGADO ..... DUDOSO */
+
+
+@media screen and (max-width: 991px){
+
+.nav-link:hover{
+    color:#d7ccc8;
+    padding: 3%;
+    box-shadow: 1px 4px 5px black;
+   
+}
+    
+}
+
+
