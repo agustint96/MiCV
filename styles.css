@@ -2,16 +2,20 @@
     box-sizing: border-box;
 }
 
-#fondo{
+#particles-js {
     position: fixed;
-    top: 0%;
-    background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
-    background-size:cover ;
-    width: 100vw;
+    
     height: 100vh;
+    width: 100%;
+    background-color: #000000;
     
     
-}
+    background-size:cover;
+   
+    z-index: -1;
+  }
+
+
 
 
 #contenido{
